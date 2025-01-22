@@ -1,0 +1,73 @@
+.bento_desgin {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    place-content: center;
+}
+
+.card-vartical {
+    position: relative;
+    text-decoration: none;
+    background-color: #c3b2e7;
+    width: 100%;
+    max-width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    color: #52225E;
+    padding: 5px 20px;
+    border-radius: 15px;
+    gap: 25px;
+    align-items: start;
+    justify-content: center;
+}
+
+.card-vartical h2 {
+    font-family: "Larken Bold";
+}
+
+.card-vartical p {
+    font-family: "Hellix Medium";
+}
+
+.img-container img {
+    position: absolute;
+    width: 250px;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    display: flex;
+}
+
+.img-container img:nth-child(1) {
+    transition: all 200ms ease-in-out;
+    rotate: -10deg;
+}
+
+.img-container img:nth-child(2) {
+    transition: all 200ms ease-in-out;
+    rotate: 10deg;
+}
+
+.card-vartical:hover .img-container img:nth-child(1) {
+    transition: all 200ms ease-in-out;
+    rotate: -15deg;
+}
+
+.card-vartical:hover .img-container img:nth-child(2) {
+    transition: all 200ms ease-in-out;
+    rotate: 15deg;
+}

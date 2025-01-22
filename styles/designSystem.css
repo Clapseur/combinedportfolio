@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Larken Bold";
+    src: url(/combinedportfolio/assets/fonts/LarkenDEMO-Bold.otf);
+}
+@font-face {
+    font-family: "Larken Medium";
+    src: url(/combinedportfolio/assets/fonts/LarkenDEMO-Medium.otf);
+}
+@font-face {
+    font-family: "Larken Regular";
+    src: url(/combinedportfolio/assets/fonts/LarkenDEMO-Regular.otf);
+}
+@font-face {
+    font-family: "Hellix Medium";
+    src: url("https://cdn.prod.website-files.com/65240dac30f703b7a711b7c2/6524138ab2e023c357436137_Hellix-Medium.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgba(252, 250, 244, 1);
+}
